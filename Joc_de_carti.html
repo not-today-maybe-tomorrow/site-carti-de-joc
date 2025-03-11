@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <title>Carti de joc</title>
+</head>
+<body>
+    <div class="header">
+        <a href="@">Introducere</a>
+        <a href="@">Pachete de carti</a>
+    </div>
+
+    <div class="container">
+        <div class="starter">
+            <h1>Carti de joc</h1>
+        <p>Cărțile de joc contemporane sunt grupate în trei mari categorii, în funcție de simbolurile folosite: franceze, latine și germane(in Europa).</p>
+        </div>
+
+        <div class="card-section">
+            <div class="card">
+                <img src="French Standard Playing-Cards.jpg" alt="Carti de joc franceze">
+                <h3>Cati din Franta</h3>
+                <p>Cărțile de joc franceze sunt cărți care folosesc simbolurile franceze: trèfles (trifoi sau trefă ♣), carreaux (diamante ♦), cœurs (inimi ♥) și piques (știuce sau pică ♠). Fiecare categorie conține trei sau patru cărți cu simboluri speciale. Într-un pachet standard de 52 de cărți, ele sunt valetul (frângul sau valetul), doamna (doamna sau regina) și roiul (regele).</p>
+            </div>
+            <div class="card">
+                <img src="download.jpg" alt="Carti de joc cu simboluri latine">
+                <h3>Carti latine</h3>
+                <p>Cartile latine sunt impartite in urmatoarele categorii: monede, bâte, cupe și săbii. Ele sunt cel mai vechi sistem de costume din Europa și au fost adoptate din cărțile importate din Egiptul mameluc și din Granada maur în anii 1370.</p>
+            </div>
+            <div class="card">
+                <img src="german.jpg" alt="">
+                <h3>Cartile nemtesti</h3>
+                <p>
+                    Elvețienii/germani și-au dezvoltat propriile simboluri,accestea fiind: scuturi, trandafiri, ghinde și clopoței în jurul anului 1450. În loc de trandafiri și scuturi, germanii s-au stabilit cu inimi și frunze în jurul anului 1460.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Site facut de Dumitrache Sarah</p>
+    </div>
+
+    <style>
+        body
+        {
+            font-family:'Ruslan Display', cursive;
+            background-image: url('Card Suit Art.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header
+        {
+            text-align: left;
+           background-color: #1a1a1d;
+           color: #872341;
+            padding: 15px;
+        }
+        .header a
+        {
+            color: #872341;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container
+        {
+            padding: 30px;
+        }
+        .container .starter
+        {
+            background-color: #3b1c32;
+            color: bisque;
+            margin-left: 1cqmin;
+            margin-right: 1cqmin;
+        }
+        .card-section
+        {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .card
+        {
+            background-color: #3b1c32;
+            color: antiquewhite;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 5px 5px 10px rgba(#872341, #123455, #555666, 0.5);
+        }
+        .card img
+        {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer
+        {
+            background-color: #1a1a1d;
+            padding: 15px;
+            margin-top: 20px;
+            color: bisque;
+            font-size: larger;
+        }
+    </style>
+</body>
+</html>
